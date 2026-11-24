@@ -1,0 +1,6 @@
+/build/
+/codexion
+/codexion-asan
+/codexion-tsan
+__pycache__/
+*.pyc

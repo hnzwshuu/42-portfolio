@@ -1,0 +1,26 @@
+[project]
+name = "pac-man"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "datamodel-code-generator>=0.83.0",
+    "pillow>=13.0.0",
+    "pydantic>=2.14.0",
+    "pygame-ce>=2.5.8",
+]
+
+[dependency-groups]
+dev = [
+    "flake8>=7.4.1",
+    "mypy>=2.4.0",
+    "pyinstaller>=6.22.3",
+]
+
+[tool.mypy]
+plugins = ["pydantic.mypy"]
+# Local stubs for mlx and mazegenerator, which ship no type information.
+mypy_path = "stubs"
+# Stubs come from mypy_path; skip them and PyInstaller output as sources.
+exclude = ["^stubs/", "^build/", "^dist/"]

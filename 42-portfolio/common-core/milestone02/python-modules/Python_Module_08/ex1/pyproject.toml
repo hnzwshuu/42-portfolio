@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "matrix-loading-programs"
+version = "0.1.0"
+description = "Matrix-themed package management exercise for Python Module 08."
+authors = ["42 Student <student@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+pandas = ">=2.0"
+numpy = ">=1.24"
+matplotlib = ">=3.7"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
