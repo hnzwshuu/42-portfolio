@@ -2,7 +2,7 @@
 
 This directory documents how the Pac-Man project was planned, tracked,
 tested and delivered. A Japanese version of each document is available
-(`*.ja.md`, starting from [README.ja.md](README.ja.md)). See the [project README](../README.md) for setup,
+See the [project README](../README.md) for setup,
 gameplay and the technical overview.
 
 | Document | Contents |
