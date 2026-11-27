@@ -357,6 +357,14 @@ approach. The repository's Git history records the individual changes.
   and seed behavior; [local type declarations](stubs/mazegenerator/__init__.pyi)
   describe the API consumed by this project.
 
+### MLX license（ライセンス）
+
+同梱の [MLX 2.2 wheel](src/mlx-2.2-py3-none-any.whl) は、MITライセンスで配布されています。
+著作権表示・許諾文・免責条項の全文を [mlx-2.2-LICENSE.txt](src/mlx-2.2-LICENSE.txt) に同梱しています。
+この文書は [MLX 2.2に対応する公式LICENSE](https://github.com/42school/mlx_CLXV/blob/0b3e65bed4ec6b5238dfddeec29269a071f812b7/LICENSE) を未改変で保存したもので、上記のMLX wheelに適用されます。
+
+2026年11月27日に、MLXライセンス全文のファイルと、本節の説明・リンクを追加しました。
+
 ### AI use
 
 AI assistance was used for discussing design and explaining code, reviewing
