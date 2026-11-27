@@ -94,8 +94,3 @@ C・Pythonを中心に、ライブラリの実装、アルゴリズム、シス�
 shanazaw（42 Tokyo）
 
 チーム課題の共同開発者・担当範囲は、各課題のREADMEに記載しています。
-
-## Reference
-
-全体READMEの構成は、[Yonaha88さんの42_subject](https://github.com/Yonaha88/42_subject/tree/main)を参考にしています。課題の説明は、このリポジトリのソースコードと既存READMEに基づいて記載しています。
-
